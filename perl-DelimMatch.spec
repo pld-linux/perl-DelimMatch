@@ -23,9 +23,9 @@ Summary(sv):	DelimMatch Perlmodul
 Summary(uk):	Модуль для Perl DelimMatch
 Summary(zh_CN):	DelimMatch Perl дё©И
 Name:		perl-DelimMatch
-Version:	1.03
-Release:	9
-License:	GPL
+Version:	1.05
+Release:	1
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
