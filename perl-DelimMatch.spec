@@ -5,27 +5,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Text
 %define		pnam	DelimMatch
-Summary:	DelimMatch Perl module
-Summary(cs):	Modul DelimMatch pro Perl
-Summary(da):	Perlmodul DelimMatch
-Summary(de):	DelimMatch Perl Modul
-Summary(es):	Módulo de Perl DelimMatch
-Summary(fr):	Module Perl DelimMatch
-Summary(it):	Modulo di Perl DelimMatch
-Summary(ja):	DelimMatch Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	DelimMatch ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul DelimMatch
-Summary(pl):	Modu³ Perla DelimMatch
-Summary(pt):	Módulo de Perl DelimMatch
-Summary(pt_BR):	Módulo Perl DelimMatch
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl DelimMatch
-Summary(sv):	DelimMatch Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl DelimMatch
-Summary(zh_CN):	DelimMatch Perl Ä£¿é
+Summary:	DelimMatch - find regexp delimited strings with proper nesting
+Summary(pl):	DelimMatch - poszukiwanie ³añcuchów ograniczonych wyra¿eniami regularnymi
 Name:		perl-DelimMatch
 Version:	1.06a
 Release:	1
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	8efb70c2326d0b8f551708e9cdc2b649
@@ -35,11 +21,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-DelimMatch - Perl extension to find regexp delimited strings with
+DelimMatch is a Perl extension to find regexp delimited strings with
 proper nesting.
 
 %description -l pl
-DelimMatch - rozszerzenie Perla do wyszukiwania ³añcuchów
+DelimMatch jest rozszerzeniem Perla do wyszukiwania ³añcuchów
 ograniczonych wyra¿eniami regularnymi z w³a¶ciwym zagnie¿d¿eniem.
 
 %prep
