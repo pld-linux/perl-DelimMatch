@@ -14,7 +14,7 @@ Summary(fr):	Module Perl DelimMatch
 Summary(it):	Modulo di Perl DelimMatch
 Summary(ja):	DelimMatch Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	DelimMatch ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul DelimMatch
+Summary(nb):	Perlmodul DelimMatch
 Summary(pl):	Modu³ Perla DelimMatch
 Summary(pt):	Módulo de Perl DelimMatch
 Summary(pt_BR):	Módulo Perl DelimMatch
