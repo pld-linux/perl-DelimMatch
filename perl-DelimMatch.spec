@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Text
-%define		pnam	DelimMatch
+%define	pdir	Text
+%define	pnam	DelimMatch
 Summary:	DelimMatch - find regexp delimited strings with proper nesting
 Summary(pl):	DelimMatch - poszukiwanie ³añcuchów ograniczonych wyra¿eniami regularnymi
 Name:		perl-DelimMatch
