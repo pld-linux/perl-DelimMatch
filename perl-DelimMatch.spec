@@ -47,7 +47,7 @@ ograniczonych wyra¿eniami regularnymi z w³a¶ciwym zagnie¿d¿eniem.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
