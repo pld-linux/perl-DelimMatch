@@ -1,3 +1,7 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Text
 %define		pnam	DelimMatch
@@ -20,7 +24,7 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl DelimMatch
 Summary(zh_CN):	DelimMatch Perl Ä£¿é
 Name:		perl-DelimMatch
 Version:	1.03
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
@@ -43,6 +47,7 @@ ograniczonych wyra¿eniami regularnymi z w³a¶ciwym zagnie¿d¿eniem.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -56,6 +61,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %{perl_sitelib}/Text/DelimMatch.pm
-%dir %{perl_sitelib}/auto/Text/DelimMatch
-%{perl_sitelib}/auto/Text/DelimMatch/autosplit.ix
+# empty autosplit.ix
+#%dir %{perl_sitelib}/auto/Text/DelimMatch
+#%{perl_sitelib}/auto/Text/DelimMatch/autosplit.ix
 %{_mandir}/man3/*
