@@ -3,7 +3,7 @@ Summary:	DelimMatch perl module
 Summary(pl):	Modu³ perla DelimMatch
 Name:		perl-DelimMatch
 Version:	1.03
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
