@@ -41,7 +41,8 @@ ograniczonych wyra¿eniami regularnymi z w³a¶ciwym zagnie¿d¿eniem.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
