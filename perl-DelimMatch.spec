@@ -45,7 +45,7 @@ ograniczonych wyra¿eniami regularnymi z w³a¶ciwym zagnie¿d¿eniem.
 %setup -q -n DelimMatch-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{!?_without_tests:%{__make} test}
 
