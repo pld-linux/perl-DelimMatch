@@ -23,12 +23,12 @@ Summary(sv):	DelimMatch Perlmodul
 Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl DelimMatch
 Summary(zh_CN):	DelimMatch Perl Ä£¿é
 Name:		perl-DelimMatch
-Version:	1.05
-Release:	2
+Version:	1.06a
+Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
-# Source0-md5:	cd03e8786a4ee7c17b59bf9d1f0fad3d
+# Source0-md5:	8efb70c2326d0b8f551708e9cdc2b649
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6.1
 BuildArch:	noarch
@@ -43,7 +43,7 @@ DelimMatch - rozszerzenie Perla do wyszukiwania ³añcuchów
 ograniczonych wyra¿eniami regularnymi z w³a¶ciwym zagnie¿d¿eniem.
 
 %prep
-%setup -q -n DelimMatch-%{version}
+%setup -q -n DelimMatch-1.06
 
 %build
 %{__perl} Makefile.PL \
