@@ -63,5 +63,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_sitelib}/Text/DelimMatch.pm
 # empty autosplit.ix
 #%dir %{perl_sitelib}/auto/Text/DelimMatch
-#%{perl_sitelib}/auto/Text/DelimMatch/autosplit.ix
+#%%{perl_sitelib}/auto/Text/DelimMatch/autosplit.ix
 %{_mandir}/man3/*
