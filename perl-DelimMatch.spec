@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	DelimMatch
 Summary:	DelimMatch - find regexp delimited strings with proper nesting
-Summary(pl):	DelimMatch - poszukiwanie ³añcuchów ograniczonych wyra¿eniami regularnymi
+Summary(pl.UTF-8):   DelimMatch - poszukiwanie Å‚aÅ„cuchÃ³w ograniczonych wyraÅ¼eniami regularnymi
 Name:		perl-DelimMatch
 Version:	1.06a
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 DelimMatch is a Perl extension to find regexp delimited strings with
 proper nesting.
 
-%description -l pl
-DelimMatch jest rozszerzeniem Perla do wyszukiwania ³añcuchów
-ograniczonych wyra¿eniami regularnymi z w³a¶ciwym zagnie¿d¿eniem.
+%description -l pl.UTF-8
+DelimMatch jest rozszerzeniem Perla do wyszukiwania Å‚aÅ„cuchÃ³w
+ograniczonych wyraÅ¼eniami regularnymi z wÅ‚aÅ›ciwym zagnieÅ¼dÅ¼eniem.
 
 %prep
 %setup -q -n DelimMatch-1.06
