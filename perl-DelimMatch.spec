@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	DelimMatch
 Summary:	DelimMatch - find regexp delimited strings with proper nesting
-Summary(pl.UTF-8):   DelimMatch - poszukiwanie łańcuchów ograniczonych wyrażeniami regularnymi
+Summary(pl.UTF-8):	DelimMatch - poszukiwanie łańcuchów ograniczonych wyrażeniami regularnymi
 Name:		perl-DelimMatch
 Version:	1.06a
 Release:	1
