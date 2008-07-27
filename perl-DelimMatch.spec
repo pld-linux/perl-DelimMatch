@@ -9,7 +9,7 @@ Summary:	DelimMatch - find regexp delimited strings with proper nesting
 Summary(pl.UTF-8):	DelimMatch - poszukiwanie łańcuchów ograniczonych wyrażeniami regularnymi
 Name:		perl-DelimMatch
 Version:	1.06a
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
